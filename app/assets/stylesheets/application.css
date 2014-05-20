@@ -47,7 +47,7 @@ margin-left:5px;
 display:block;
 padding:10px;
 text-decoration:none;
-color:##bbbbbb;
+color:#bbbbbb;
 border-top:2px solid transparent;
 }
 
@@ -67,6 +67,5 @@ height: 100%;
 width: 100%;
 overflow: hidden;
 margin: 0px;
-background: url("body-bg.png");
 padding-top: 41px;
 }
