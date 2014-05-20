@@ -47,7 +47,6 @@ margin-left:5px;
 display:block;
 padding:10px;
 text-decoration:none;
-color:##bbbbbb;
 border-top:2px solid transparent;
 }
 
