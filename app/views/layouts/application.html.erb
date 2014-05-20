@@ -7,7 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<div class="menu">
+		<ul>
+			<li class="active"><%= link_to('Home', {:controller => '/home', :action => 'index'})%></li>			 		
+			<li><a href="#">SERVICES</a></li>
+			<li><a href="#">NEWS/NEWSLETTER</a></li>
+			<li><a href="#">ABOUTUS</a></li>
+			<li><a href="#">CONTACTUS</a></li>
+			<div class="clearFloat"></div>
+		</ul>
+</div>
 	<div id="user_nav">
 		<% if user_signed_in? %> 
 			Signed in as <%= current_user.email %>. Not you? 
@@ -20,6 +29,8 @@
 	<% flash.each do |name, msg| %>
 		<%= content_tag :div, msg, :id => "flash_#{name}" %>
 	<% end %>
+<br/>
+<%= params.inspect %>
 
 <%= yield %>
 

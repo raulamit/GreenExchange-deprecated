@@ -68,5 +68,5 @@ width: 100%;
 overflow: hidden;
 margin: 0px;
 background: url("body-bg.png");
-padding-top: 41px;
+padding-top: 30px;
 }
