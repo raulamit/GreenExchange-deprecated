@@ -18,9 +18,6 @@
 
   <div><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
     <%= f.password_field :current_password, autocomplete: "off" %></div>
-    
-     <p><%= f.label :first_name %><br />
-  <%= f.text_field :first_name %></p>
 
   <div><%= f.submit "Update" %></div>
 <% end %>
